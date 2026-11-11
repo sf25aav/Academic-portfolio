@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My Academic Portfolio </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+        <h1>My Academic Portfolio</h1>
+        <p>Welcome to my academic portfolio. Here you can learn about my studies, interests and projects. </p>
+<\header>
+<NAV>
+    <a href="#about">About Me</a>
+    <a href="#interests">Technical Interests</a>
+    <a href="#portfolio">My Portfolio</a>
+    <a href="contact">Contact Me</a>
+</NAV>
+<main>
+    <section id="about">
+        <h2>About me</h2>
+        <p>My name is Sara Frasheri. I am currently studying BSc(Hons)Computer Science. </p>
+        <p>I am currently studying at the University of Hertfordshire and developing my skills in technology and web development.</p>
+        <p>I am passionate about technology and enjoy exploring how digital solutions can solve real-world problems. I am currently developing my programming and problem-solving skills through my university studies.</p>    
+        
+    </section>
+
+    <section id="interests">
+        <h2>Technical Interests</h2>
+        <p>I am interested in Web Development because I enjoy learning how websites are created and designed.</p>
+        <p>I am also interested in Cybersecurity, particularly in understanding how digital systems and personal information can be protected from online threats.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+    
+        <article>
+        <h3>Academic Portfolio Website</h3>
+    <p>A personal website created to present my academic background, technical interests and developing skills in Computer Science.</p>
+
+    <button id="open-modal">More Information</button>
+    <a href="project-detail.html">View Project Details</a>
+</article>
+
+<div id="project-modal" style="display: none;">
+    <h3>Academic Portfolio Website</h3>
+    <p>This project demonstrates my developing skills in HTML, CSS and JavaScript.</p>
+    <button id="close-modal">Close</button>
+</div>    
+        </article>
+
+    </section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type ="submit">Send Message</button></button>
+        </form>
+    </section>
+<\main>
+<footer>
+        <p>My Academic Portfolio</p>
+</footer>
+<script src="js/contact.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
