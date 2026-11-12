@@ -3,17 +3,45 @@
 <head>
     <title>My Portfolio</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
+    
 <body>
+    <header>
+        <a href="index.html">Sara Frasheri</a>
+        <nav>
+            <a href="technical-interests.html">Technical Interests</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+     <section id="portfolio">
+         <h1>My portfolio</h1>
 
-    <h1>My Portfolio</h1>
+         <article>
+             <h2>academic Portfolio Website</h2>
+             <p>A personal website created to present my academic background, technical interests and developing skills in Computer Science.</p>
+             <button id="open-modal">Quick Overview</button>
+             <a href="project-detail.html">View Project Details-></a>
+         </article>
 
-    <section>
-        <h2>Academic Portfolio Website</h2>
-        <p>A personal website created to present my academic background, technical interests and developing skills in Computer Science.</p>.</p>
-        <a href="project-detail.html">View Project Details</a>
-    </section>
+         <div id="project_modal"style="display:none;">
+             <h3>Academic Portfolio Website</h3>
+             <p>This project demonstrates my dveloping skills in semantic HTML, CSS and JavaScript, focusing on web accesibility and usability.</p>
+            <button id="close-modal">Close</button>
+         </div>
+     </section>
+    </main>
 
-    <p><a href="index.html">Back to Home</a></p>
+    <footer>
+        <p>&copy;2026 Sara Frasheri.All rights reserved.</p>
+    </footer>
+
+    <script src="js/modal.js"></script>
+</body>
+</html>
+
+    
 
