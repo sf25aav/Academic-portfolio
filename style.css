@@ -7,12 +7,13 @@ body{
   line-height:1.6;
 }
 header {
-  display:flex;
-  justify-content:space-between;
-  align_items:center;
-  padding:25px 50px;
-  border-bottom: 1px solid #DCD7CD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    border-bottom: 1px solid #DCD7CD;
 }
+
 header a {
   text-decorstion:none;
   color:#1C1C1C;
