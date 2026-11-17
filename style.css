@@ -106,5 +106,25 @@ footer{
     height: auto;
     display: block;
 }
+article figure {
+  margin: 25px 0;
+  padding: 15px;
+  border: 1px solid #DCD7CD;
+  background-color: #FFFFFF;
+  max-width: 650px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+article figcaption {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555555;
+}
 
 
